@@ -1,7 +1,7 @@
 /* Adicione aqui todo o estilo da sua página */
 /* Hora de colocar a criatividade em prática! */
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Poppins:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Poppins:wght@300;700&display=swap');
 /* Resetando o CSS */
 * {
   margin: 0;
@@ -12,23 +12,48 @@
   vertical-align: baseline;
 }
 
-.restaurante-inicio {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/pexels-shivam-singh-9558969.jpg'), #D9D9D9;
+.restaurante-area1 {
   position: absolute;
-  width: 1440px;
-  height: 677px;
-  left: -10px;
-  top: 53px;
+  color: #fff;
 }
 
-.restaurante-apresentação {
-  position: absolute;
-  width: 108px;
+.restaurante-inicio {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/pexels-shivam-singh-9558969.jpg'), #D9D9D9;
+  background-size: cover;
+  width: auto;
+  height: 677px;
+}
+
+.restaurante-apresentacao {
+  width: 200px;
   height: 25px;
   left: 296px;
   top: 179px;
   font-family: 'Mr Dafoe', cursive;
   font-size: 26px;
+  font-weight: 100;
   line-height: 95%;
-  color: #fff;
+}
+
+.restaurante-nome {
+  width: 371px;
+  height: 194px;
+  left: 296px;
+  top: 216px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size:101.662px;
+  line-height: 95%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.restaurante-descricao {
+  width: 354px;
+  height: 21px;
+  left: 296px;
+  top: 427px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
