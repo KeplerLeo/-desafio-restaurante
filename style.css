@@ -1,7 +1,10 @@
 /* Adicione aqui todo o estilo da sua página */
 /* Hora de colocar a criatividade em prática! */
+
+/* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Poppins:wght@300;700&display=swap');
+
 /* Resetando o CSS */
 * {
   margin: 0;
@@ -12,13 +15,18 @@
   vertical-align: baseline;
 }
 
+body {
+  background: #f6f6f6;
+}
+
+/* Área 1 - Inicio */
 .restaurante-area1 {
   position: absolute;
   color: #fff;
 }
 
 .restaurante-inicio {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/pexels-shivam-singh-9558969.jpg'), #D9D9D9;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagens/background.jpg'), #D9D9D9;
   background-size: cover;
   width: auto;
   height: 677px;
@@ -42,7 +50,7 @@
   top: 216px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size:101.662px;
+  font-size: 101.662px;
   line-height: 95%;
   letter-spacing: -0.04em;
   text-transform: uppercase;
@@ -56,4 +64,108 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+/* Área 2 - Missão */
+
+.restaurante-missao {
+  box-sizing: border-box;
+  position: absolute;
+  width: 847px;
+  height: 661px;
+  top: 508px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0B1517;
+  border: 1px solid #000;
+}
+
+.restaurante-missao-titulo {
+  position: absolute;
+  width: 300px;
+  height: 37px;
+  left: 75px;
+  top: 81px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 95%;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.restaurante-missao-texto1 {
+  position: absolute;
+  width: 276px;
+  height: 275px;
+  left: 120px;
+  top: 175px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 154%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.restaurante-missao-texto2 {
+  position: absolute;
+  width: 276px;
+  height: 175px;
+  right: 120px;
+  top: 175px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 154%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+a {
+  color: #fff;
+  text-decoration: none; /* no underline */
+}
+
+.restaurante-missao-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 264px;
+  height: 31px;
+  right: 110px;
+  top: 420px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 154%;
+  text-align: center;
+}
+
+.restaurante-missao-link-line {
+  width: 55px;
+  height: 0px;
+  margin-right: auto;
+  border: 2px solid #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.restaurante-imagem1 {
+  position: absolute;
+  width: 697px;
+  height: 420px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1021px;
+  background: url(imagens/imagem1.png) no-repeat;
+  background-size: cover;
+  box-shadow: 0 5px 8px rgba(100, 100, 100, 0.1);
 }
